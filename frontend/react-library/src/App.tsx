@@ -20,6 +20,11 @@ function App() {
             <li className='nav-item'>
               <a href="#" className='nav-link'>Search Books</a>
             </li>
+          </ul>
+          <ul className='navbar-nav ms-auto'>
+            <li className='nav-item m-1'>
+              <a href="#" className='btn btn-outline-light' type='button'>Sign In</a>
+            </li>
           </ul>         
         </div>
       </div>
