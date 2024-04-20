@@ -1,7 +1,8 @@
+
 export const ExploreTopBooks = () => {
     return (
-        <div>
-            <div>
+        <div className="header">
+            <div className="container-fluid">
                 <div>
                     <h1 className="display-5 fw-bold">Find your next adventure</h1>
                     <p className="col-md-8 fs-4">Where would you like to go next?</p>
