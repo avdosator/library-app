@@ -1,4 +1,5 @@
 import './App.css'
+import { Carousel } from './layouts/HomePage/Carousel'
 import { ExploreTopBooks } from './layouts/HomePage/ExploreTopBooks'
 import { Navbar } from './layouts/NavbarAndFooter/Navbar'
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Navbar />
       <ExploreTopBooks />
+      <Carousel />
     </div>
   )
 }
