@@ -1,11 +1,10 @@
 import './App.css'
+import { Navbar } from './layouts/NavbarAndFooter/Navbar'
 
 function App() {
 
   return (
-    <>
-      <h1>Our library app</h1>
-    </>
+    <Navbar />
   )
 }
 
