@@ -12,6 +12,16 @@ function App() {
         >
           <span className='navbar-toggler-icon'></span>
         </button>
+        <div className='collapse navbar-collapse' id='navbarNavDropdown'>
+          <ul className='navbar-nav'>
+            <li className='nav-item'>
+              <a href="#" className='nav-link'>Home</a>
+            </li>
+            <li className='nav-item'>
+              <a href="#" className='nav-link'>Search Books</a>
+            </li>
+          </ul>         
+        </div>
       </div>
     </nav>
   )
