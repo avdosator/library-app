@@ -11,7 +11,7 @@ function App() {
       <ExploreTopBooks />
       <Carousel />
     </div>
-  )
+  );
 }
 
 export default App
