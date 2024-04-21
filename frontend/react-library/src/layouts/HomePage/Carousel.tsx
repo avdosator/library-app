@@ -1,4 +1,3 @@
-import bookImage1 from "./../../Images/BooksImages/book-luv2code-1000.png"
 import { ReturnBook } from "./ReturnBook";
 
 export const Carousel = () => {
@@ -15,15 +14,21 @@ export const Carousel = () => {
                     <div className="carousel-item active">
                         <div className="row d-flex justify-content-center align-items-center">
                             <ReturnBook />
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <div className="row d-flex justify-content-center align-items-center">
+                            <ReturnBook />
                             <ReturnBook />
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="row d-flex justify-content-center align-items-center">
+                            <ReturnBook />
+                            <ReturnBook />
+                            <ReturnBook />
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <div className="row d-flex justify-content-center align-items-center">
+                            <ReturnBook />
+                            <ReturnBook />
                             <ReturnBook />
                         </div>
                     </div>
