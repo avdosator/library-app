@@ -9,7 +9,7 @@ export const LibraryServices = () => {
                         a personal message!
                     </p>
                     <div className="d-grip gap-2 justify-content-md-start mb-4 mb-lg-3">
-
+                        <a href="#" className="btn btn-lg main-color text-white">Sign up</a>
                     </div>
                 </div>
             </div>
