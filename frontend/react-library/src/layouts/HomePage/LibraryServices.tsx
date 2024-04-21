@@ -12,6 +12,7 @@ export const LibraryServices = () => {
                         <a href="#" className="btn btn-lg main-color text-white">Sign up</a>
                     </div>
                 </div>
+                <div className="col-lg-4 offset-lg-1 shadow-lg lost-image"></div>
             </div>
         </div>
     );
