@@ -8,7 +8,7 @@ class BookModel {
     category: string;
     img: string;
 
-    public constructor(id: number, title: string, author: string, description: string,
+    constructor(id: number, title: string, author: string, description: string,
         copies: number, copiesAvailable: number, category: string, img: string) {
 
             this.id = id;
