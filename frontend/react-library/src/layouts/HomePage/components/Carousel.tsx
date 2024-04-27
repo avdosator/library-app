@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ReturnBook } from "./ReturnBook";
 import BookModel from "../../../models/BookModel";
 
@@ -7,6 +7,23 @@ export const Carousel = () => {
     let [books, setBooks] = useState<BookModel[]>([]);
     let [isLoading, setIsLoading] = useState(true);
     let [httpError, setHtttpError] = useState(null);
+
+    useEffect(() => {
+
+        const fetchBooks = async () => {
+            const baseUrl = "http//localhost:3000/api/books";
+            const url = `${baseUrl}/gkgjg`;
+            const response = await fetch(url);
+            const responseJson = response.json();
+            const bookData = responseJson._embededM;
+
+        };
+
+        fetchBooks().catch((error: any) => {
+            setIsLoading(false);
+            setHtttpError(error.message)
+        })
+    }, []);
 
     return (
         <div className="container mt-5" style={{ height: 550 }}>
