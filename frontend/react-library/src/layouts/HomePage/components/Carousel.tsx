@@ -14,6 +14,8 @@ export const Carousel = () => {
         const fetchBooks = async () => {
             const baseUrl: string = "http://localhost:8080/api/books";
             const url: string = `${baseUrl}?page=0&size=9`;
+
+            // spring app must be running and then we can fetch data
             const response = await fetch(url);
 
             if(!response.ok) {
@@ -24,7 +26,8 @@ export const Carousel = () => {
             const responseData = responseJson._embedded.books;
 
             const loadedBooks: BookModel[] = [];
-
+            
+            // key represents index of array and we loop through array like this 
             for(const key in responseData) {
                 loadedBooks.push({
                     id: responseData[key].id,
